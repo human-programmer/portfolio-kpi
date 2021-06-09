@@ -1,0 +1,763 @@
+{
+  "body": {
+    "_total_items": 26,
+    "_page": 1,
+    "_page_count": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields?limit=200&page=1"
+      }
+    },
+    "_embedded": {
+      "custom_fields": [
+        {
+          "id": 179391,
+          "name": "Должность",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "POSITION",
+          "sort": 503,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/179391"
+            }
+          }
+        },
+        {
+          "id": 179393,
+          "name": "Телефон",
+          "type": "multitext",
+          "account_id": 28967662,
+          "code": "PHONE",
+          "sort": 4,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 256137,
+              "value": "WORK",
+              "sort": 2
+            },
+            {
+              "id": 256139,
+              "value": "WORKDD",
+              "sort": 4
+            },
+            {
+              "id": 256141,
+              "value": "MOB",
+              "sort": 6
+            },
+            {
+              "id": 256143,
+              "value": "FAX",
+              "sort": 8
+            },
+            {
+              "id": 256145,
+              "value": "HOME",
+              "sort": 10
+            },
+            {
+              "id": 256147,
+              "value": "OTHER",
+              "sort": 12
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/179393"
+            }
+          }
+        },
+        {
+          "id": 179395,
+          "name": "Email",
+          "type": "multitext",
+          "account_id": 28967662,
+          "code": "EMAIL",
+          "sort": 6,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 256149,
+              "value": "WORK",
+              "sort": 2
+            },
+            {
+              "id": 256151,
+              "value": "PRIV",
+              "sort": 4
+            },
+            {
+              "id": 256153,
+              "value": "OTHER",
+              "sort": 6
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/179395"
+            }
+          }
+        },
+        {
+          "id": 264753,
+          "name": "test contact",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 504,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/264753"
+            }
+          }
+        },
+        {
+          "id": 265039,
+          "name": "flag",
+          "type": "checkbox",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 505,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265039"
+            }
+          }
+        },
+        {
+          "id": 265041,
+          "name": "Multi-list",
+          "type": "multiselect",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 506,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 364255,
+              "value": "v2",
+              "sort": 500
+            },
+            {
+              "id": 364257,
+              "value": "v1",
+              "sort": 1
+            },
+            {
+              "id": 364259,
+              "value": "v3",
+              "sort": 2
+            },
+            {
+              "id": 364261,
+              "value": "v4",
+              "sort": 3
+            },
+            {
+              "id": 364263,
+              "value": "v5",
+              "sort": 4
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265041"
+            }
+          }
+        },
+        {
+          "id": 265043,
+          "name": "Date",
+          "type": "date",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 507,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265043"
+            }
+          }
+        },
+        {
+          "id": 265045,
+          "name": "Link",
+          "type": "url",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 508,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265045"
+            }
+          }
+        },
+        {
+          "id": 265047,
+          "name": "Teaxt area",
+          "type": "textarea",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 509,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265047"
+            }
+          }
+        },
+        {
+          "id": 265049,
+          "name": "Toggle",
+          "type": "radiobutton",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 510,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 364265,
+              "value": "v1",
+              "sort": 500
+            },
+            {
+              "id": 364267,
+              "value": "v2",
+              "sort": 1
+            },
+            {
+              "id": 364269,
+              "value": "v3",
+              "sort": 2
+            },
+            {
+              "id": 364271,
+              "value": "v4",
+              "sort": 3
+            },
+            {
+              "id": 364273,
+              "value": "v5",
+              "sort": 4
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265049"
+            }
+          }
+        },
+        {
+          "id": 265051,
+          "name": "Short address",
+          "type": "streetaddress",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 511,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265051"
+            }
+          }
+        },
+        {
+          "id": 265053,
+          "name": "Address",
+          "type": "smart_address",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 512,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 1,
+              "value": "address_line_1",
+              "sort": 1
+            },
+            {
+              "id": 2,
+              "value": "address_line_2",
+              "sort": 2
+            },
+            {
+              "id": 3,
+              "value": "city",
+              "sort": 3
+            },
+            {
+              "id": 4,
+              "value": "state",
+              "sort": 4
+            },
+            {
+              "id": 5,
+              "value": "zip",
+              "sort": 5
+            },
+            {
+              "id": 6,
+              "value": "country",
+              "sort": 6
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265053"
+            }
+          }
+        },
+        {
+          "remind": "day",
+          "id": 265055,
+          "name": "День рождения",
+          "type": "birthday",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 513,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265055"
+            }
+          }
+        },
+        {
+          "id": 265057,
+          "name": "Юр. лицо",
+          "type": "legal_entity",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 514,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 1,
+              "value": "name",
+              "sort": 1
+            },
+            {
+              "id": 2,
+              "value": "entity_type",
+              "sort": 2
+            },
+            {
+              "id": 3,
+              "value": "vat_id",
+              "sort": 3
+            },
+            {
+              "id": 4,
+              "value": "tax_registration_reason_code",
+              "sort": 4
+            },
+            {
+              "id": 5,
+              "value": "address",
+              "sort": 5
+            },
+            {
+              "id": 6,
+              "value": "kpp",
+              "sort": 6
+            },
+            {
+              "id": 7,
+              "value": "external_uid",
+              "sort": 7
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265057"
+            }
+          }
+        },
+        {
+          "id": 265059,
+          "name": "DateTime",
+          "type": "date_time",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 515,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265059"
+            }
+          }
+        },
+        {
+          "id": 265065,
+          "name": "Select",
+          "type": "select",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 516,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 364275,
+              "value": "item 1",
+              "sort": 500
+            },
+            {
+              "id": 364277,
+              "value": "item 2",
+              "sort": 1
+            },
+            {
+              "id": 364279,
+              "value": "item 3",
+              "sort": 2
+            },
+            {
+              "id": 364281,
+              "value": "item 4",
+              "sort": 3
+            },
+            {
+              "id": 364283,
+              "value": "item 5",
+              "sort": 4
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265065"
+            }
+          }
+        },
+        {
+          "id": 265067,
+          "name": "Number",
+          "type": "numeric",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 517,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/265067"
+            }
+          }
+        },
+        {
+          "id": 266069,
+          "name": "test 1",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 519,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_94961596723749",
+          "required_statuses": [
+            {
+              "pipeline_id": 3418789,
+              "status_id": 34049422
+            }
+          ],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266069"
+            }
+          }
+        },
+        {
+          "id": 266071,
+          "name": "test 2",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 520,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_94961596723749",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266071"
+            }
+          }
+        },
+        {
+          "id": 266073,
+          "name": "test 1",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 522,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_70131596723766",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266073"
+            }
+          }
+        },
+        {
+          "id": 266075,
+          "name": "test 2",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 523,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_70131596723766",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266075"
+            }
+          }
+        },
+        {
+          "id": 266077,
+          "name": "test 1",
+          "type": "text",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 526,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_88331596724080",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266077"
+            }
+          }
+        },
+        {
+          "id": 266079,
+          "name": "test 2",
+          "type": "text",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 527,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_88331596724080",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266079"
+            }
+          }
+        },
+        {
+          "id": 266081,
+          "name": "test 1",
+          "type": "text",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 529,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_53891596724095",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266081"
+            }
+          }
+        },
+        {
+          "id": 266083,
+          "name": "test 2",
+          "type": "text",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 530,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "contacts_53891596724095",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/266083"
+            }
+          }
+        },
+        {
+          "id": 290695,
+          "name": "Пользовательское соглашение",
+          "type": "checkbox",
+          "account_id": 28967662,
+          "code": "USER_AGREEMENT",
+          "sort": 10502,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "contacts",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/custom_fields/290695"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

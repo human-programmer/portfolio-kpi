@@ -1,0 +1,112 @@
+{
+  "body": {
+    "_page": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/companies?with=leads%2Ccontacts&limit=200&page=1"
+      },
+      "next": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/companies?with=leads%2Ccontacts&limit=200&page=2"
+      }
+    },
+    "_embedded": {
+      "companies": [
+        {
+          "id": 18821051,
+          "name": "йцуйцу",
+          "responsible_user_id": 6179530,
+          "group_id": 0,
+          "created_by": 6179530,
+          "updated_by": 6179530,
+          "created_at": 1618420758,
+          "updated_at": 1618420773,
+          "closest_task_at": null,
+          "is_deleted": false,
+          "custom_fields_values": [
+            {
+              "field_id": 179393,
+              "field_name": "Телефон",
+              "field_code": "PHONE",
+              "field_type": "multitext",
+              "values": [
+                {
+                  "value": "123",
+                  "enum_id": 256137,
+                  "enum_code": "WORK"
+                }
+              ]
+            },
+            {
+              "field_id": 179395,
+              "field_name": "Email",
+              "field_code": "EMAIL",
+              "field_type": "multitext",
+              "values": [
+                {
+                  "value": "123",
+                  "enum_id": 256149,
+                  "enum_code": "WORK"
+                }
+              ]
+            },
+            {
+              "field_id": 179397,
+              "field_name": "Web",
+              "field_code": "WEB",
+              "field_type": "url",
+              "values": [
+                {
+                  "value": "http://123"
+                }
+              ]
+            },
+            {
+              "field_id": 179399,
+              "field_name": "Адрес",
+              "field_code": "ADDRESS",
+              "field_type": "textarea",
+              "values": [
+                {
+                  "value": "123"
+                }
+              ]
+            }
+          ],
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/companies/18821051"
+            }
+          },
+          "_embedded": {
+            "tags": [],
+            "leads": [
+              {
+                "id": 12462131,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/12462131"
+                  }
+                }
+              }
+            ],
+            "contacts": [
+              {
+                "id": 18821053,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/contacts/18821053"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

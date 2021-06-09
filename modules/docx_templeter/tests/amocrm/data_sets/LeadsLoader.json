@@ -1,0 +1,131 @@
+{
+  "body": {
+    "_page": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/leads?with=contacts%2Ccompanies&limit=200&page=1"
+      },
+      "next": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/leads?with=contacts%2Ccompanies&limit=200&page=2"
+      }
+    },
+    "_embedded": {
+      "leads": [
+        {
+          "id": 3425731,
+          "name": "+375(33) 333-33-33",
+          "price": 0,
+          "responsible_user_id": 6179530,
+          "group_id": 0,
+          "status_id": 143,
+          "pipeline_id": 3418789,
+          "loss_reason_id": 4928449,
+          "created_by": 0,
+          "updated_by": 6297067,
+          "created_at": 1597411758,
+          "updated_at": 1599483763,
+          "closed_at": 1599483763,
+          "closest_task_at": null,
+          "is_deleted": false,
+          "custom_fields_values": [
+            {
+              "field_id": 179821,
+              "field_name": "Web источник",
+              "field_code": null,
+              "field_type": "select",
+              "values": [
+                {
+                  "value": "Google",
+                  "enum_id": 256689
+                }
+              ]
+            },
+            {
+              "field_id": 257870,
+              "field_name": "Название рекламной кампании",
+              "field_code": null,
+              "field_type": "text",
+              "values": [
+                {
+                  "value": "+375(33) 333-33-33"
+                }
+              ]
+            },
+            {
+              "field_id": 271499,
+              "field_name": "Источник клиента",
+              "field_code": "PRAGMA_CUSTOMER_SOURCE",
+              "field_type": "select",
+              "values": [
+                {
+                  "value": "Facebook",
+                  "enum_id": 368835
+                }
+              ]
+            },
+            {
+              "field_id": 271503,
+              "field_name": "Ключевые слова",
+              "field_code": "PRAGMA_KEYWORDS",
+              "field_type": "text",
+              "values": [
+                {
+                  "value": "utm_term еуые еуые"
+                }
+              ]
+            },
+            {
+              "field_id": 271507,
+              "field_name": "Клиент пользователя",
+              "field_code": "PRAGMA_USER_CLIENT",
+              "field_type": "text",
+              "values": [
+                {
+                  "value": "IP: 127.0.0.1; Desktop Chrome 84 Windows 10 Устр. Other"
+                }
+              ]
+            },
+            {
+              "field_id": 272813,
+              "field_name": "Реферальные ссылки",
+              "field_code": "PRAGMA_REFERRAL_LINKS",
+              "field_type": "url",
+              "values": [
+                {
+                  "value": "http://dev-local/widgets/form_v2/landings/index.html?utm_source=facebook&utm_medium=cpc&utm_campaign=promo&utm_term=utm_term+%D0%B5%D1%83%D1%8B%D0%B5+%D0%B5%D1%83%D1%8B%D0%B5"
+                }
+              ]
+            },
+            {
+              "field_id": 272829,
+              "field_name": "Местоположение клиента",
+              "field_code": "PRAGMA_CUSTOMER_LOCATION",
+              "field_type": "text",
+              "values": [
+                {
+                  "value": "Область: -; Город: -"
+                }
+              ]
+            }
+          ],
+          "score": null,
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/3425731"
+            }
+          },
+          "_embedded": {
+            "tags": [],
+            "companies": [],
+            "contacts": []
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es2020", //defines what sort of code ts generates, es5 because it's what most browsers currently UNDERSTANDS.
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true, //for angular to be able to use metadata we specify in our components.
+    "experimentalDecorators": true, //angular needs decorators like @Component, @Injectable, etc.
+    "removeComments": true,
+    "noImplicitAny": false,
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "files": [
+    "tests/main/accounts/testMainAccounts.ts"
+  ],
+  "exclude-after-remap": false,
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "body": {
+    "_total_items": 5,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines?limit=200&page=1"
+      }
+    },
+    "_embedded": {
+      "pipelines": [
+        {
+          "id": 3418789,
+          "name": "Воронка",
+          "sort": 1,
+          "is_main": true,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 34049413,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 3418789,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/34049413"
+                  }
+                }
+              },
+              {
+                "id": 35597569,
+                "name": "pfz",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 3418789,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/35597569"
+                  }
+                }
+              },
+              {
+                "id": 35361670,
+                "name": "Заявка",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 3418789,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/35361670"
+                  }
+                }
+              },
+              {
+                "id": 34049416,
+                "name": "Первичный контакт",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 3418789,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/34049416"
+                  }
+                }
+              },
+              {
+                "id": 34049419,
+                "name": "Переговоры",
+                "sort": 50,
+                "is_editable": true,
+                "pipeline_id": 3418789,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/34049419"
+                  }
+                }
+              },
+              {
+                "id": 34049422,
+                "name": "Принимают решение",
+                "sort": 60,
+                "is_editable": true,
+                "pipeline_id": 3418789,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/34049422"
+                  }
+                }
+              },
+              {
+                "id": 34049425,
+                "name": "Согласование договора",
+                "sort": 70,
+                "is_editable": true,
+                "pipeline_id": 3418789,
+                "color": "#ffcccc",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/34049425"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 3418789,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 3418789,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3418789/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 3607330,
+          "name": "Воронка 2",
+          "sort": 2,
+          "is_main": false,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 35325637,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 3607330,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/35325637"
+                  }
+                }
+              },
+              {
+                "id": 35595886,
+                "name": "TEST",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 3607330,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/35595886"
+                  }
+                }
+              },
+              {
+                "id": 35362390,
+                "name": "заявка",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 3607330,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/35362390"
+                  }
+                }
+              },
+              {
+                "id": 35325640,
+                "name": "Первичный контакт",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 3607330,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/35325640"
+                  }
+                }
+              },
+              {
+                "id": 35325643,
+                "name": "Переговоры",
+                "sort": 50,
+                "is_editable": true,
+                "pipeline_id": 3607330,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/35325643"
+                  }
+                }
+              },
+              {
+                "id": 35325646,
+                "name": "Принимают решение",
+                "sort": 60,
+                "is_editable": true,
+                "pipeline_id": 3607330,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/35325646"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 3607330,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 3607330,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3607330/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 3731866,
+          "name": "Воронка 3",
+          "sort": 3,
+          "is_main": false,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 36180808,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 3731866,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866/statuses/36180808"
+                  }
+                }
+              },
+              {
+                "id": 36180811,
+                "name": "Первичный контакт",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 3731866,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866/statuses/36180811"
+                  }
+                }
+              },
+              {
+                "id": 36180814,
+                "name": "Переговоры",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 3731866,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866/statuses/36180814"
+                  }
+                }
+              },
+              {
+                "id": 36180817,
+                "name": "Принимают решение",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 3731866,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866/statuses/36180817"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 3731866,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 3731866,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3731866/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 3732061,
+          "name": "ВОРОНКА",
+          "sort": 4,
+          "is_main": false,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 36182131,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 3732061,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061/statuses/36182131"
+                  }
+                }
+              },
+              {
+                "id": 36182134,
+                "name": "Первичный контакт",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 3732061,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061/statuses/36182134"
+                  }
+                }
+              },
+              {
+                "id": 36182137,
+                "name": "Переговоры",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 3732061,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061/statuses/36182137"
+                  }
+                }
+              },
+              {
+                "id": 36182140,
+                "name": "Принимают решение",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 3732061,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061/statuses/36182140"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 3732061,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 3732061,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732061/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 3732073,
+          "name": "Самое очень длиннооооное ннаазваниеее",
+          "sort": 5,
+          "is_main": false,
+          "is_unsorted_on": true,
+          "is_archive": false,
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073"
+            }
+          },
+          "_embedded": {
+            "statuses": [
+              {
+                "id": 36182185,
+                "name": "Неразобранное",
+                "sort": 10,
+                "is_editable": false,
+                "pipeline_id": 3732073,
+                "color": "#c1c1c1",
+                "type": 1,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073/statuses/36182185"
+                  }
+                }
+              },
+              {
+                "id": 36182188,
+                "name": "Бананы",
+                "sort": 20,
+                "is_editable": true,
+                "pipeline_id": 3732073,
+                "color": "#99ccff",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073/statuses/36182188"
+                  }
+                }
+              },
+              {
+                "id": 36182191,
+                "name": "Переговоры",
+                "sort": 30,
+                "is_editable": true,
+                "pipeline_id": 3732073,
+                "color": "#ffff99",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073/statuses/36182191"
+                  }
+                }
+              },
+              {
+                "id": 36182194,
+                "name": "Принимают решение",
+                "sort": 40,
+                "is_editable": true,
+                "pipeline_id": 3732073,
+                "color": "#ffcc66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073/statuses/36182194"
+                  }
+                }
+              },
+              {
+                "id": 142,
+                "name": "Успешно реализовано",
+                "sort": 10000,
+                "is_editable": false,
+                "pipeline_id": 3732073,
+                "color": "#CCFF66",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073/statuses/142"
+                  }
+                }
+              },
+              {
+                "id": 143,
+                "name": "Закрыто и не реализовано",
+                "sort": 11000,
+                "is_editable": false,
+                "pipeline_id": 3732073,
+                "color": "#D5D8DB",
+                "type": 0,
+                "account_id": 28967662,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/pipelines/3732073/statuses/143"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

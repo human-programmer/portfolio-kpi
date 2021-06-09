@@ -1,0 +1,1263 @@
+{
+  "body": {
+    "_total_items": 45,
+    "_page": 1,
+    "_page_count": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields?limit=200&page=1"
+      }
+    },
+    "_embedded": {
+      "custom_fields": [
+        {
+          "id": 179821,
+          "name": "Web источник",
+          "type": "select",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 502,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 256689,
+              "value": "Google",
+              "sort": 500
+            },
+            {
+              "id": 256691,
+              "value": "Google",
+              "sort": 1
+            },
+            {
+              "id": 256693,
+              "value": "Google",
+              "sort": 2
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/179821"
+            }
+          }
+        },
+        {
+          "id": 257870,
+          "name": "Название рекламной кампании",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 501,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/257870"
+            }
+          }
+        },
+        {
+          "id": 271499,
+          "name": "Источник клиента",
+          "type": "select",
+          "account_id": 28967662,
+          "code": "PRAGMA_CUSTOMER_SOURCE",
+          "sort": 518,
+          "is_api_only": true,
+          "enums": [
+            {
+              "id": 368827,
+              "value": "Google",
+              "sort": 500
+            },
+            {
+              "id": 368829,
+              "value": "Yandex",
+              "sort": 1
+            },
+            {
+              "id": 368831,
+              "value": "MarketGid",
+              "sort": 2
+            },
+            {
+              "id": 368833,
+              "value": "myTarget",
+              "sort": 3
+            },
+            {
+              "id": 368835,
+              "value": "Facebook",
+              "sort": 4
+            },
+            {
+              "id": 368837,
+              "value": "Inctagram",
+              "sort": 5
+            },
+            {
+              "id": 368839,
+              "value": "Vkontakte",
+              "sort": 6
+            },
+            {
+              "id": 368841,
+              "value": "Одноклассники",
+              "sort": 7
+            }
+          ],
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/271499"
+            }
+          }
+        },
+        {
+          "id": 271501,
+          "name": "Web компания",
+          "type": "select",
+          "account_id": 28967662,
+          "code": "PRAGMA_CAMPAIGN",
+          "sort": 519,
+          "is_api_only": true,
+          "enums": [
+            {
+              "id": 368843,
+              "value": "Google Контекст",
+              "sort": 500
+            },
+            {
+              "id": 368845,
+              "value": "Google КМС",
+              "sort": 1
+            },
+            {
+              "id": 368855,
+              "value": "Youtube Ремаркетинг",
+              "sort": 6
+            },
+            {
+              "id": 368857,
+              "value": "Youtube",
+              "sort": 7
+            },
+            {
+              "id": 370103,
+              "value": "Ремаркетинг google",
+              "sort": 2
+            },
+            {
+              "id": 370105,
+              "value": "Яндекс Контекст",
+              "sort": 3
+            },
+            {
+              "id": 370107,
+              "value": "РСЯ Яндекс",
+              "sort": 4
+            },
+            {
+              "id": 370109,
+              "value": "Яндекс Ретаргетинг",
+              "sort": 5
+            }
+          ],
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/271501"
+            }
+          }
+        },
+        {
+          "id": 271503,
+          "name": "Ключевые слова",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "PRAGMA_KEYWORDS",
+          "sort": 520,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/271503"
+            }
+          }
+        },
+        {
+          "id": 271507,
+          "name": "Клиент пользователя",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "PRAGMA_USER_CLIENT",
+          "sort": 521,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/271507"
+            }
+          }
+        },
+        {
+          "id": 271511,
+          "name": "Roistatsdfgdfg",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "PRAGMA_ROI_STAT",
+          "sort": 522,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/271511"
+            }
+          }
+        },
+        {
+          "id": 272813,
+          "name": "Реферальные ссылки",
+          "type": "url",
+          "account_id": 28967662,
+          "code": "PRAGMA_REFERRAL_LINKS",
+          "sort": 523,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/272813"
+            }
+          }
+        },
+        {
+          "id": 272829,
+          "name": "Местоположение клиента",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "PRAGMA_CUSTOMER_LOCATION",
+          "sort": 524,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/272829"
+            }
+          }
+        },
+        {
+          "id": 290333,
+          "name": "ФИО",
+          "type": "text",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 527,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "leads_19011599481887",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/290333"
+            }
+          }
+        },
+        {
+          "id": 290337,
+          "name": "День Рождения",
+          "type": "date",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 528,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "leads_19011599481887",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/290337"
+            }
+          }
+        },
+        {
+          "id": 294721,
+          "name": "Сайт",
+          "type": "textarea",
+          "account_id": 28967662,
+          "code": "PRAGMA_LANDING_URL",
+          "sort": 525,
+          "is_api_only": true,
+          "enums": null,
+          "group_id": "leads_18651597242381",
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/294721"
+            }
+          }
+        },
+        {
+          "id": 311593,
+          "name": "Время звонка",
+          "type": "date_time",
+          "account_id": 28967662,
+          "code": "",
+          "sort": 503,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [
+            {
+              "pipeline_id": 3418789,
+              "status_id": 34049419
+            }
+          ],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/311593"
+            }
+          }
+        },
+        {
+          "id": 329611,
+          "name": "utm_source",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "UTM_SOURCE",
+          "sort": 548,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329611"
+            }
+          }
+        },
+        {
+          "id": 329613,
+          "name": "utm_medium",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "UTM_MEDIUM",
+          "sort": 547,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329613"
+            }
+          }
+        },
+        {
+          "id": 329615,
+          "name": "utm_campaign",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "UTM_CAMPAIGN",
+          "sort": 546,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329615"
+            }
+          }
+        },
+        {
+          "id": 329617,
+          "name": "utm_term",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "UTM_TERM",
+          "sort": 545,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329617"
+            }
+          }
+        },
+        {
+          "id": 329619,
+          "name": "utm_content",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "UTM_CONTENT",
+          "sort": 544,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329619"
+            }
+          }
+        },
+        {
+          "id": 329621,
+          "name": "utm_referrer",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "UTM_REFERRER",
+          "sort": 543,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329621"
+            }
+          }
+        },
+        {
+          "id": 329623,
+          "name": "_ym_uid",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "_YM_UID",
+          "sort": 542,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329623"
+            }
+          }
+        },
+        {
+          "id": 329625,
+          "name": "_ym_counter",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "_YM_COUNTER",
+          "sort": 541,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329625"
+            }
+          }
+        },
+        {
+          "id": 329627,
+          "name": "roistat",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "ROISTAT",
+          "sort": 540,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329627"
+            }
+          }
+        },
+        {
+          "id": 329629,
+          "name": "referrer",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "REFERRER",
+          "sort": 530,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329629"
+            }
+          }
+        },
+        {
+          "id": 329631,
+          "name": "openstat_service",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "OPENSTAT_SERVICE",
+          "sort": 538,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329631"
+            }
+          }
+        },
+        {
+          "id": 329633,
+          "name": "openstat_campaign",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "OPENSTAT_CAMPAIGN",
+          "sort": 537,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329633"
+            }
+          }
+        },
+        {
+          "id": 329635,
+          "name": "openstat_ad",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "OPENSTAT_AD",
+          "sort": 536,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329635"
+            }
+          }
+        },
+        {
+          "id": 329637,
+          "name": "openstat_source",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "OPENSTAT_SOURCE",
+          "sort": 539,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329637"
+            }
+          }
+        },
+        {
+          "id": 329639,
+          "name": "from",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "FROM",
+          "sort": 535,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329639"
+            }
+          }
+        },
+        {
+          "id": 329641,
+          "name": "gclientid",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "GCLIENTID",
+          "sort": 534,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329641"
+            }
+          }
+        },
+        {
+          "id": 329643,
+          "name": "gclid",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "GCLID",
+          "sort": 533,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329643"
+            }
+          }
+        },
+        {
+          "id": 329645,
+          "name": "yclid",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "YCLID",
+          "sort": 532,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329645"
+            }
+          }
+        },
+        {
+          "id": 329647,
+          "name": "fbclid",
+          "type": "tracking_data",
+          "account_id": 28967662,
+          "code": "FBCLID",
+          "sort": 531,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": "statistic",
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/329647"
+            }
+          }
+        },
+        {
+          "id": 580257,
+          "name": "тест",
+          "type": "text",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 505,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580257"
+            }
+          }
+        },
+        {
+          "id": 580259,
+          "name": "число",
+          "type": "numeric",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 506,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580259"
+            }
+          }
+        },
+        {
+          "id": 580261,
+          "name": "флаг",
+          "type": "checkbox",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 507,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580261"
+            }
+          }
+        },
+        {
+          "id": 580263,
+          "name": "список",
+          "type": "select",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 508,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 531691,
+              "value": "ш1",
+              "sort": 500
+            },
+            {
+              "id": 531693,
+              "value": "ш2",
+              "sort": 1
+            },
+            {
+              "id": 531695,
+              "value": "ш3",
+              "sort": 2
+            },
+            {
+              "id": 531697,
+              "value": "ш4",
+              "sort": 3
+            },
+            {
+              "id": 531699,
+              "value": "шш5",
+              "sort": 4
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580263"
+            }
+          }
+        },
+        {
+          "id": 580265,
+          "name": "Мультисписок",
+          "type": "multiselect",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 509,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 531701,
+              "value": "1",
+              "sort": 500
+            },
+            {
+              "id": 531703,
+              "value": "2",
+              "sort": 1
+            },
+            {
+              "id": 531705,
+              "value": "3",
+              "sort": 2
+            },
+            {
+              "id": 531707,
+              "value": "4",
+              "sort": 3
+            },
+            {
+              "id": 531709,
+              "value": "5",
+              "sort": 4
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580265"
+            }
+          }
+        },
+        {
+          "id": 580267,
+          "name": "дата",
+          "type": "date",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 510,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580267"
+            }
+          }
+        },
+        {
+          "id": 580269,
+          "name": "текстовая область",
+          "type": "textarea",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 511,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580269"
+            }
+          }
+        },
+        {
+          "id": 580271,
+          "name": "переключатель",
+          "type": "radiobutton",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 512,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 531711,
+              "value": "q",
+              "sort": 500
+            },
+            {
+              "id": 531713,
+              "value": "w",
+              "sort": 1
+            },
+            {
+              "id": 531715,
+              "value": "e",
+              "sort": 2
+            },
+            {
+              "id": 531717,
+              "value": "r",
+              "sort": 3
+            },
+            {
+              "id": 531719,
+              "value": "t",
+              "sort": 4
+            },
+            {
+              "id": 531721,
+              "value": "y",
+              "sort": 5
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580271"
+            }
+          }
+        },
+        {
+          "id": 580273,
+          "name": "короткий адрес",
+          "type": "streetaddress",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 513,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580273"
+            }
+          }
+        },
+        {
+          "id": 580275,
+          "name": "адрес",
+          "type": "smart_address",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 514,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 1,
+              "value": "address_line_1",
+              "sort": 1
+            },
+            {
+              "id": 2,
+              "value": "address_line_2",
+              "sort": 2
+            },
+            {
+              "id": 3,
+              "value": "city",
+              "sort": 3
+            },
+            {
+              "id": 4,
+              "value": "state",
+              "sort": 4
+            },
+            {
+              "id": 5,
+              "value": "zip",
+              "sort": 5
+            },
+            {
+              "id": 6,
+              "value": "country",
+              "sort": 6
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580275"
+            }
+          }
+        },
+        {
+          "remind": "never",
+          "id": 580277,
+          "name": "День рождения",
+          "type": "birthday",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 515,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580277"
+            }
+          }
+        },
+        {
+          "id": 580279,
+          "name": "Юр. лицо",
+          "type": "legal_entity",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 516,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 1,
+              "value": "name",
+              "sort": 1
+            },
+            {
+              "id": 2,
+              "value": "entity_type",
+              "sort": 2
+            },
+            {
+              "id": 3,
+              "value": "vat_id",
+              "sort": 3
+            },
+            {
+              "id": 4,
+              "value": "tax_registration_reason_code",
+              "sort": 4
+            },
+            {
+              "id": 5,
+              "value": "address",
+              "sort": 5
+            },
+            {
+              "id": 6,
+              "value": "kpp",
+              "sort": 6
+            },
+            {
+              "id": 7,
+              "value": "external_uid",
+              "sort": 7
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580279"
+            }
+          }
+        },
+        {
+          "id": 580281,
+          "name": "дата и время",
+          "type": "date_time",
+          "account_id": 28967662,
+          "code": null,
+          "sort": 517,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": true,
+          "is_predefined": false,
+          "entity_type": "leads",
+          "tracking_callback": null,
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/leads/custom_fields/580281"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

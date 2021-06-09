@@ -1,0 +1,5 @@
+export const BITRIX24_MAIN_ROUTE = '/bitrix24'
+export const BITRIX24_ACCOUNTS_ROUTE = '/bitrix24/accounts'
+export const BITRIX24_NODES_ROUTE = '/bitrix24/nodes'
+export const BITRIX24_INSTALL_ROUTE = '/bitrix24/install_module'
+export const BITRIX24_QUERY_ROUTE = '/bitrix24/query'

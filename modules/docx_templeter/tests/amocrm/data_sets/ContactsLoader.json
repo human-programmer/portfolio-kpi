@@ -1,0 +1,98 @@
+{
+  "body": {
+    "_page": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/contacts?with=leads%2Ccompanies&limit=200&page=1"
+      },
+      "next": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/contacts?with=leads%2Ccompanies&limit=200&page=2"
+      }
+    },
+    "_embedded": {
+      "contacts": [
+        {
+          "id": 18398073,
+          "name": "Номер Телефона 375296500228",
+          "first_name": "Номер Телефона 375296500228",
+          "last_name": "",
+          "responsible_user_id": 6200425,
+          "group_id": 0,
+          "created_by": 0,
+          "updated_by": 6200425,
+          "created_at": 1617179897,
+          "updated_at": 1617623570,
+          "closest_task_at": null,
+          "is_deleted": false,
+          "custom_fields_values": [
+            {
+              "field_id": 179393,
+              "field_name": "Телефон",
+              "field_code": "PHONE",
+              "field_type": "multitext",
+              "values": [
+                {
+                  "value": "375296500228",
+                  "enum_id": 256141,
+                  "enum_code": "MOB"
+                }
+              ]
+            },
+            {
+              "field_id": 266069,
+              "field_name": "test 1",
+              "field_code": null,
+              "field_type": "text",
+              "values": [
+                {
+                  "value": "6"
+                }
+              ]
+            }
+          ],
+          "account_id": 28967662,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/contacts/18398073"
+            }
+          },
+          "_embedded": {
+            "tags": [
+              {
+                "id": 161575,
+                "name": "lirax"
+              },
+              {
+                "id": 161577,
+                "name": "V4"
+              }
+            ],
+            "leads": [
+              {
+                "id": 12310313,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/12310313"
+                  }
+                }
+              },
+              {
+                "id": 12310321,
+                "_links": {
+                  "self": {
+                    "href": "https://pragmadev.amocrm.ru/api/v4/leads/12310321"
+                  }
+                }
+              }
+            ],
+            "companies": []
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

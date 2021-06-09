@@ -1,0 +1,1 @@
+node node_modules/typescript/bin/tsc --module es6 --target esnext server/app.ts && node -r esm server/app.js

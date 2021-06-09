@@ -1,0 +1,796 @@
+{
+  "body": {
+    "_total_items": 8,
+    "_page": 1,
+    "_page_count": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/users/?limit=200&page=1"
+      }
+    },
+    "_embedded": {
+      "users": [
+        {
+          "id": 2794642,
+          "name": "Технический Пользователь",
+          "email": "techuseramo@team.amocrm.com",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/2794642/"
+            }
+          }
+        },
+        {
+          "id": 6179530,
+          "name": "Developer AMO",
+          "email": "dev@pragma.by",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6179530/"
+            }
+          }
+        },
+        {
+          "id": 6200425,
+          "name": "Василий",
+          "email": "vasyayurevich@gmail.com",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6200425/"
+            }
+          }
+        },
+        {
+          "id": 6217153,
+          "name": "test_user",
+          "email": "test_userhhgh@qwe.ru",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6217153/"
+            }
+          }
+        },
+        {
+          "id": 6297067,
+          "name": "Ирина",
+          "email": "test@iqwerty.com",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6297067/"
+            }
+          }
+        },
+        {
+          "id": 6300835,
+          "name": "Катя",
+          "email": "testpragmak@gmail.com",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6300835/"
+            }
+          }
+        },
+        {
+          "id": 6917560,
+          "name": "Sasha",
+          "email": "alexhivoina@gmail.com",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": false,
+            "catalog_access": false,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": false,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6917560/"
+            }
+          }
+        },
+        {
+          "id": 6924280,
+          "name": "Iliya",
+          "email": "pragma6559989@gmail.com",
+          "lang": "ru",
+          "rights": {
+            "leads": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "contacts": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "companies": {
+              "view": "A",
+              "edit": "A",
+              "add": "A",
+              "delete": "A",
+              "export": "A"
+            },
+            "tasks": {
+              "edit": "A",
+              "delete": "A"
+            },
+            "mail_access": true,
+            "catalog_access": true,
+            "status_rights": [
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3418789,
+                "status_id": 34049413,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3607330,
+                "status_id": 35325637,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3731866,
+                "status_id": 36180808,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732061,
+                "status_id": 36182131,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              },
+              {
+                "entity_type": "leads",
+                "pipeline_id": 3732073,
+                "status_id": 36182185,
+                "rights": {
+                  "view": "A",
+                  "edit": "A",
+                  "delete": "A"
+                }
+              }
+            ],
+            "is_admin": true,
+            "is_free": false,
+            "is_active": true,
+            "group_id": null,
+            "role_id": null
+          },
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/users/6924280/"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}

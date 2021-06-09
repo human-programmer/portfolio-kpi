@@ -1,0 +1,57 @@
+{
+  "name": "crm_gateways",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generals/functions.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "services": "npm i && npm run compile && pm2 reload services",
+    "services-dev": "npm i && npm run compile && pm2 reload services-dev",
+    "compile": "tsc --module es6 --target esnext server/app.ts",
+    "compileMiniServices": "tsc --module es6 --target esnext modules/server/app.ts",
+    "devApp": "tsc -sourcemap --module es2020 --target esnext server/app.ts && mocha -r esm server/app.js",
+    "modulesDevApp": "tsc -sourcemap --module es2020 --target esnext modules/server/app.ts && mocha -r esm modules/server/app.js",
+    "testPragma": "tsc -sourcemap --module es6 --target esnext tests/pragma/run.ts && mocha -r esm tests/pragma/run.js",
+    "testPragmaWorkers": "tsc -sourcemap --module es6 --target esnext tests/pragma/workers/run.ts && mocha -r esm tests/pragma/workers/run.js",
+    "testPragmaKPIWorkers": "tsc -sourcemap --module es2020 --target esnext workers/tests/pragma/kpi/run.ts && mocha -r esm workers/tests/pragma/kpi/run.js",
+    "testAmocrm": "tsc -sourcemap --module es6 --target esnext tests/amocrm/run.ts && mocha -r esm tests/amocrm/run.js",
+    "testLoaders": "tsc -sourcemap --module es6 --target esnext tests/amocrm/workers/loaders/run.ts && mocha -r esm tests/amocrm/workers/loaders/run.js",
+    "testMain": "tsc -sourcemap --module es6 --target esnext tests/main/run.ts && mocha -r esm tests/main/run.js",
+    "testGenerals": "tsc -sourcemap --module es6 --target esnext tests/generals/run.ts && mocha -r esm tests/generals/run.js",
+    "testServer": "npm run devApp && T/5 npm run runTestServer",
+    "runTestServer": "tsc -sourcemap --module es6 --target esnext tests/server/run.ts && mocha -r esm tests/server/run.js",
+    "testAll": "tsc -sourcemap --module es2020 --target esnext tests/run.ts && mocha -r esm tests/run.js",
+    "dev": "tsc -sourcemap --module es6 --target esnext crm_systems/bitrix24/main.ts && mocha -r esm crm_systems/bitrix24/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.31",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "child_process": "^1.0.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "http-build-query": "^0.7.0",
+    "https": "^1.0.0",
+    "ini": "^2.0.0",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "typescript": "^4.2.3"
+  }
+}

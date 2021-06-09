@@ -1,0 +1,151 @@
+{
+  "body": {
+    "_total_items": 4,
+    "_page": 1,
+    "_page_count": 1,
+    "_links": {
+      "self": {
+        "href": "https://pragmadev.amocrm.ru/api/v4/companies/custom_fields?limit=200&page=1"
+      }
+    },
+    "_embedded": {
+      "custom_fields": [
+        {
+          "id": 179393,
+          "name": "Телефон",
+          "type": "multitext",
+          "account_id": 28967662,
+          "code": "PHONE",
+          "sort": 4,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 256137,
+              "value": "WORK",
+              "sort": 2
+            },
+            {
+              "id": 256139,
+              "value": "WORKDD",
+              "sort": 4
+            },
+            {
+              "id": 256141,
+              "value": "MOB",
+              "sort": 6
+            },
+            {
+              "id": 256143,
+              "value": "FAX",
+              "sort": 8
+            },
+            {
+              "id": 256145,
+              "value": "HOME",
+              "sort": 10
+            },
+            {
+              "id": 256147,
+              "value": "OTHER",
+              "sort": 12
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "companies",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/companies/custom_fields/179393"
+            }
+          }
+        },
+        {
+          "id": 179395,
+          "name": "Email",
+          "type": "multitext",
+          "account_id": 28967662,
+          "code": "EMAIL",
+          "sort": 6,
+          "is_api_only": false,
+          "enums": [
+            {
+              "id": 256149,
+              "value": "WORK",
+              "sort": 2
+            },
+            {
+              "id": 256151,
+              "value": "PRIV",
+              "sort": 4
+            },
+            {
+              "id": 256153,
+              "value": "OTHER",
+              "sort": 6
+            }
+          ],
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "companies",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/companies/custom_fields/179395"
+            }
+          }
+        },
+        {
+          "id": 179397,
+          "name": "Web",
+          "type": "url",
+          "account_id": 28967662,
+          "code": "WEB",
+          "sort": 8,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "companies",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/companies/custom_fields/179397"
+            }
+          }
+        },
+        {
+          "id": 179399,
+          "name": "Адрес",
+          "type": "textarea",
+          "account_id": 28967662,
+          "code": "ADDRESS",
+          "sort": 10,
+          "is_api_only": false,
+          "enums": null,
+          "group_id": null,
+          "required_statuses": [],
+          "is_deletable": false,
+          "is_predefined": true,
+          "entity_type": "companies",
+          "remind": null,
+          "_links": {
+            "self": {
+              "href": "https://pragmadev.amocrm.ru/api/v4/companies/custom_fields/179399"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "info": {
+    "statusCode": 200,
+    "statusMessage": "OK"
+  }
+}
